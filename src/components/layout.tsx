@@ -1,7 +1,7 @@
 import React from "react";
 import Header from './header';
 import * as layoutStyles from  './layout.module.scss'
-import Nav from "./nav";
+import Nav from '../components/NavBar/nav';
 
 const Layout = (props: { children: React.ReactChild | React.ReactChild[]}) => {
   return (
