@@ -5,7 +5,10 @@ const config: GatsbyConfig = {
     title: `code2137`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass"]
+  plugins: [
+    "gatsby-plugin-sass",
+    "gatsby-transformer-typescript-css-modules"
+  ]
 };
 
 export default config;
