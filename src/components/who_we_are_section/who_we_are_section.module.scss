@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    background-color: $DarkBlue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+
+    img {
+        width: 500px;
+    }
+
+    div {
+        margin-left: 40px;
+        color: white;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 20px 0;
+        }
+    }
+}
