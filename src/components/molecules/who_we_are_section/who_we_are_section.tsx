@@ -1,6 +1,6 @@
 import React from "react";
 //Images
-import sideImage from "../../images/whoweare.jpg";
+import sideImage from "../../../images/whoweare.jpg";
 //Styles
 import * as styles from "./who_we_are_section.module.scss";
 
