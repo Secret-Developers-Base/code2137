@@ -1,0 +1,103 @@
+.nav,
+.mobile {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.logoContainer {
+    padding: 0 40px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: "Righteous";
+    font-size: 30px;
+    color: $LightBlue;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: center;
+    line-height: 35px;
+}
+
+.list {
+    display: inline-block;
+    padding: 0 24px;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $LightBlue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link:hover {
+    border-bottom: solid $DarkBlue;
+    color: $DarkBlue;
+    transition: all 0.1s ease-in;
+}
+
+.active-Link {
+    color: $DarkBlue;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    .nav {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile .hamburger {
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        border-top: 2px solid $DarkBlue;
+        animation: fadeIn 0.2s ease-in-out;
+    }
+
+    .logoContainer {
+        padding-left: 20px;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(2rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

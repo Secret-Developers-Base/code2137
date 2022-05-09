@@ -1,14 +1,16 @@
 import * as React from "react";
-import Layout from "../components/layout";
-import "./index.scss";
+//Components
+import Layout from "../components/templates/layout/layout";
+import HomeContent from "../components/templates/home_content/home_content";
+//fonts
+import "@fontsource/roboto";
+//styles
+import "../styles/main.scss";
 
 const IndexPage = () => {
     return (
         <Layout>
-            <main>
-                <h1>code2137</h1>
-                <h2>Home</h2>
-            </main>
+            <HomeContent />
         </Layout>
     );
 };
