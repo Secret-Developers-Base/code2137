@@ -1,0 +1,19 @@
+
+.container__header {
+  padding-top: 4rem!important;
+  padding-bottom: 4rem!important;
+  background-color: #1B2A4E !important;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-family: sans-serif!important;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
