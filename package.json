@@ -16,6 +16,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
+        "@easyfonts/league-spartan": "^1.0.1",
         "@fontsource/righteous": "^4.5.6",
         "@fontsource/roboto": "^4.5.5",
         "@react-icons/all-files": "^4.1.0",
