@@ -2,9 +2,12 @@
     width: 100%;
     background-color: $DarkBlue;
     height: 200px;
+    display: flex;
+    align-items: center;
 
     h2 {
         color: white;
-        font-size: 24px;
+        font-size: 44px;
+        margin-left: 20%;
     }
 }
