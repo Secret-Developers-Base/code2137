@@ -1,6 +1,6 @@
 import React from "react";
 //Styles
-import * as styles from "careers_header.module.scss";
+import * as styles from "./careers_header.module.scss";
 
 const CareersHeader = () => {
     return (
