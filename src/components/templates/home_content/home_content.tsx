@@ -6,11 +6,11 @@ import WhyUsSection from "../../molecules/why_us_section/why_us_section";
 
 const HomeContent = () => {
     return (
-        <main>
+        <>
             <WhoWeAreSection />
             <WhatWeOfferSection />
             <WhyUsSection />
-        </main>
+        </>
     );
 };
 
