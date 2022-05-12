@@ -11,9 +11,8 @@ import "@fontsource/righteous";
 const Header = () => {
   return (
     <header className={styles.container}>
-      <div>
-        <h1 className={styles.headerDesc}>Body Leasing <br /> <hr color='white' />Recruitment Services <br /> <hr color='white' /> IT Outsourcing</h1>
-      </div>
+      <h1>code2137</h1>
+      <h2 className={styles.headerDesc}>Body Leasing | Recruitment Services | IT Outsourcing</h2>
     </header>
   );
 };
