@@ -4,18 +4,18 @@ import * as React from "react";
 import Layout from "../components/templates/layout/layout";
 import HomeContent from "../components/templates/home_content/home_content";
 //fonts
-import "@fontsource/roboto";
+
 //styles
 import "../styles/main.scss";
 
 const IndexPage = () => {
-  return (
-    <div id="top">
-      <Layout>
-        <HomeContent />
-      </Layout>
-    </div>
-  );
+    return (
+        <div id="top">
+            <Layout>
+                <HomeContent />
+            </Layout>
+        </div>
+    );
 };
 
 export default IndexPage;
