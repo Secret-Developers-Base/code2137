@@ -8,11 +8,11 @@ import "@fontsource/roboto";
 import "../styles/main.scss";
 
 const CareerPage = () => {
-    return (
-        <Layout>
-            <CareersContent />
-        </Layout>
-    );
+  return (
+    <Layout>
+      <CareersContent />
+    </Layout>
+  );
 };
 
 export default CareerPage;
