@@ -16,9 +16,6 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@easyfonts/league-spartan": "^1.0.1",
-        "@fontsource/righteous": "^4.5.6",
-        "@fontsource/roboto": "^4.5.5",
         "gatsby": "^4.14.0",
         "gatsby-plugin-sass": "^5.14.0",
         "gatsby-plugin-sass-resources": "^2.0.0",
