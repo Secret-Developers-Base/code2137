@@ -1,6 +1,7 @@
 import * as React from "react";
 //Components
-import Nav from "../components/organisms/NavBar/nav";
+import Layout from "../components/templates/layout/layout";
+import HomeContent from "../components/templates/home_content/home_content";
 //fonts
 import "@fontsource/roboto";
 //styles
@@ -8,9 +9,9 @@ import "../styles/main.scss";
 
 const ServicesPage = () => {
   return (
-    <div>
-      <Nav />
-    </div>
+    <Layout>
+      <HomeContent />
+    </Layout>
   );
 };
 

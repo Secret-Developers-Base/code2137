@@ -1,4 +1,5 @@
 import * as React from "react";
+
 //Components
 import Layout from "../components/templates/layout/layout";
 import HomeContent from "../components/templates/home_content/home_content";
@@ -8,11 +9,13 @@ import "@fontsource/roboto";
 import "../styles/main.scss";
 
 const IndexPage = () => {
-    return (
-        <Layout>
-            <HomeContent />
-        </Layout>
-    );
+  return (
+    <div id="top">
+      <Layout>
+        <HomeContent />
+      </Layout>
+    </div>
+  );
 };
 
 export default IndexPage;
