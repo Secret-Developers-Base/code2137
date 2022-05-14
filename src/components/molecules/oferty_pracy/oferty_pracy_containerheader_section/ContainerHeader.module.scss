@@ -5,8 +5,15 @@
   background-color: #1B2A4E !important;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   font-family: sans-serif!important;
+  width: 75%
+}
+
+@media screen and (max-width: 990px) {
+  .container__header {
+    width: 100%;
+  }
 }
 
 .col-12 {
