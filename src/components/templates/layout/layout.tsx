@@ -13,7 +13,6 @@ const Layout = (props: { children: React.ReactChild | React.ReactChild[] }) => {
         <Header />
         {props.children}
 
-        <HomeContent />
         <Footer />
       </div>
     </div>
