@@ -1,59 +1,61 @@
 .container {
-    margin-top: 10px;
-    width: 100%;
-    align-items: center;
-    padding: 40px;
-    text-align: center;
-    color: #506690;
-    background-color: #1b2a4e;
+  position: absolute;
+  top: 100%;
+  margin-top: 10px;
+  width: 100%;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  color: #506690;
+  background-color: #1b2a4e;
 
-    div {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-    }
+  div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .columns_item {
-    display: block !important;
-    width: 180px;
-    margin: 0 20px;
+  display: block !important;
+  width: 180px;
+  margin: 0 20px;
 
-    span,
-    li {
-        font-size: 16px;
-        max-width: 180px;
-        line-height: 25px;
-    }
-    Link:hover {
-        color: white;
-    }
+  span,
+  li {
+    font-size: 16px;
+    max-width: 180px;
+    line-height: 25px;
+  }
+  Link:hover {
+    color: white;
+  }
 }
 
 .link {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #506690;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #506690;
 
-    font-weight: bold;
-    cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .link:hover {
-    border-bottom: solid #1b2a4e;
-    color: white;
-    transition: all 0.1s ease-in;
+  border-bottom: solid #1b2a4e;
+  color: white;
+  transition: all 0.1s ease-in;
 }
 
 @media (max-width: 768px) {
-    .container {
-        padding-left: 80px;
-    }
+  .container {
+    padding-left: 80px;
+  }
 
-    div {
-        justify-content: center;
-        flex-direction: column;
-        align-content: center;
-        flex-wrap: wrap;
-    }
+  div {
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+  }
 }
