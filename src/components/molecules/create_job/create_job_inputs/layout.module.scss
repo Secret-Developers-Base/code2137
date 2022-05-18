@@ -1,0 +1,46 @@
+.container {
+  width: 95%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .first__row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    width: 100%;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    justify-content: center;
+    justify-items: center;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .customList {
+    justify-items: center;
+  }
+}
+
+input[type="text"] {
+  height: 36px;
+}
+
+.first__row {
+  display: grid;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  justify-items: center;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.mantine-k2fys1 {
+  grid-template-columns: none !important;
+}

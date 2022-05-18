@@ -3,9 +3,11 @@
   height: 700px;
   display: flex;
   justify-content: space-between;
-  background-image:
-    linear-gradient(rgba(151, 166, 247, 0.52),
-    rgba(27, 42, 78, 0.75)), url('../../../images/header2.jpg');
+  background-image: linear-gradient(
+      rgba(151, 166, 247, 0.52),
+      rgba(27, 42, 78, 0.75)
+    ),
+    url("../../../images/header2.jpg");
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-position: center center;

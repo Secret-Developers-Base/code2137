@@ -8,11 +8,11 @@ import "../styles/main.scss";
 import OfertyPracyLayout from "../components/templates/oferty_pracy_content/layout";
 
 const OfertyPracy = () => {
-    return (
-        <OfertyPracyLayout>
-            <OfertyPracyContent />
-        </OfertyPracyLayout>
-    );
+  return (
+    <OfertyPracyLayout>
+      <OfertyPracyContent />
+    </OfertyPracyLayout>
+  );
 };
 
 export default OfertyPracy;

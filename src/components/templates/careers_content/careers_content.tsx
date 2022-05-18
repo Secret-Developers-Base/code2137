@@ -3,11 +3,11 @@ import CareersHeader from "../../molecules/careers_header/careers_header";
 //Components
 
 const CareersContent = () => {
-    return (
-        <>
-            <CareersHeader />
-        </>
-    );
+  return (
+    <>
+      <CareersHeader />
+    </>
+  );
 };
 
 export default CareersContent;

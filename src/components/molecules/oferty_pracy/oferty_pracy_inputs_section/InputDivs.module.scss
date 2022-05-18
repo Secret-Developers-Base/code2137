@@ -6,7 +6,7 @@
   font-family: sans-serif;
 }
 
-input[type=text] {
+input[type="text"] {
   display: block;
   width: 100%;
   height: calc(1.6em + 1.625rem + 2px);
@@ -15,26 +15,25 @@ input[type=text] {
   font-weight: 400;
   line-height: 1.6;
   color: #223679;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   background-clip: padding-box;
-  border: 1px solid #F1F4F8;
+  border: 1px solid #f1f4f8;
   border-radius: 0.375rem;
   box-shadow: none;
   transition: 0.1s ease-in-out all;
 }
 
-input[type=text]::placeholder {
-  opacity: 0.7
+input[type="text"]::placeholder {
+  opacity: 0.7;
 }
 
-input[type=text]:focus {
-  border: 1px solid #000073
+input[type="text"]:focus {
+  border: 1px solid #000073;
 }
 
 .input__main {
   padding: 20px;
 }
-
 
 .loader {
   border: 16px solid #f3f3f3; /* Light grey */
@@ -46,6 +45,10 @@ input[type=text]:focus {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

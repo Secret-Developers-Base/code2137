@@ -5,13 +5,13 @@ import WhoWeAreSection from "../../molecules/who_we_are_section/who_we_are_secti
 import WhyUsSection from "../../molecules/why_us_section/why_us_section";
 
 const HomeContent = () => {
-    return (
-        <>
-            <WhoWeAreSection />
-            <WhatWeOfferSection />
-            <WhyUsSection />
-        </>
-    );
+  return (
+    <>
+      <WhoWeAreSection />
+      <WhatWeOfferSection />
+      <WhyUsSection />
+    </>
+  );
 };
 
 export default HomeContent;

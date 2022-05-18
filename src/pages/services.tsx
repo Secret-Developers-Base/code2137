@@ -8,11 +8,11 @@ import "@fontsource/roboto";
 import "../styles/main.scss";
 
 const ServicesPage = () => {
-    return (
-        <Layout>
-            <HomeContent />
-        </Layout>
-    );
+  return (
+    <Layout>
+      <HomeContent />
+    </Layout>
+  );
 };
 
 export default ServicesPage;

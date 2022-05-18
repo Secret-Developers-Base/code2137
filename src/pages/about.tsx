@@ -8,11 +8,11 @@ import "@fontsource/roboto";
 import "../styles/main.scss";
 
 const AboutPage = () => {
-    return (
-        <Layout>
-            <HomeContent />
-        </Layout>
-    );
+  return (
+    <Layout>
+      <HomeContent />
+    </Layout>
+  );
 };
 
 export default AboutPage;

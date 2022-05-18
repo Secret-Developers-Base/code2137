@@ -1,5 +1,6 @@
 * {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .job__card_main {
@@ -18,7 +19,7 @@
 
 @media screen and (max-width: 850px) {
   .job__card_main {
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
@@ -28,14 +29,20 @@
   .job__card {
     background-color: black;
     width: 100%;
-    height: 40px
+    height: 40px;
+    margin-top: 0.5rem !important;
+  }
+  .job__card_header {
+    padding: 0.75rem 0.25rem;
+    justify-content: space-between;
+    display: flex;
   }
 }
 
 .job__card {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  width: 400px;
+  width: 375px;
   height: 300px;
   background-color: #ffffff;
   color: white;
@@ -44,16 +51,10 @@
   margin: 0.5rem;
 }
 
-@media screen and (max-width: 768px) {
-  .job__card {
-    width: 350px!important;
-  }
-}
-
 .card_button {
   background-color: transparent;
   padding: 8px 8px;
-  border: none
+  border: none;
 }
 
 .card_button:hover {
@@ -61,7 +62,7 @@
 }
 
 .job__card_header {
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 0.5rem;
   justify-content: space-between;
   display: flex;
 }
@@ -87,8 +88,8 @@
   border-radius: 0.25rem;
   background-color: transparent;
   border: 2px solid #c7c7c7;
-  padding: .3rem .4rem;
-  margin: 1%
+  padding: 0.3rem 0.4rem;
+  margin: 1%;
 }
 
 .card_badges {
@@ -112,8 +113,7 @@
 
 .submit__button {
   padding: 10px 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px;
   border: none;
   background-color: $DarkBlue;
   color: $White;

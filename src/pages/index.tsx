@@ -8,11 +8,11 @@ import "@fontsource/roboto";
 import "../styles/main.scss";
 
 const IndexPage = () => {
-    return (
-        <Layout>
-            <HomeContent />
-        </Layout>
-    );
+  return (
+    <Layout>
+      <HomeContent />
+    </Layout>
+  );
 };
 
 export default IndexPage;

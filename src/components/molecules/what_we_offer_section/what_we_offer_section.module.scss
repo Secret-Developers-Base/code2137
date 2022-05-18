@@ -1,21 +1,21 @@
 .container {
-    margin-top: 40px;
-    width: 100%;
-    align-items: center;
-    padding: 40px;
+  margin-top: 40px;
+  width: 100%;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  color: $DarkBlue;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+  }
+
+  p {
+    margin: 20px 0;
+    line-height: 30px;
     text-align: center;
-    color: $DarkBlue;
-
-    h2 {
-        margin-bottom: 20px;
-        font-size: 30px;
-        font-weight: 100;
-    }
-
-    p {
-        margin: 20px 0;
-        line-height: 30px;
-        text-align: center;
-        font-weight: 100;
-    }
+    font-weight: 100;
+  }
 }
