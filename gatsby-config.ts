@@ -10,6 +10,13 @@ const config: GatsbyConfig = {
         "gatsby-plugin-smoothscroll",
         "gatsby-transformer-typescript-css-modules",
         {
+            resolve: `gatsby-plugin-google-fonts`,
+            options: {
+                fonts: [`righteous`, `roboto`, `league-spartan`],
+                display: "swap",
+            },
+        },
+        {
             resolve: `gatsby-plugin-sass-resources`,
             options: {
                 resources: ["./src/styles/SASSResourceLoader.scss"],

@@ -1023,11 +1023,6 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@easyfonts/league-spartan@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@easyfonts/league-spartan/-/league-spartan-1.0.1.tgz#c6256ac4126a65be10ee3cf98afc662c292736ce"
-  integrity sha512-KIy6mzhkfLZ8AzbHzuh6kEkdK+iQX7RNfc6tTw3PT9+kGj+KfzlN1QTqhkJb66yYqUHki0CLNdeeyrlpT9kc8g==
-
 "@endemolshinegroup/cosmiconfig-typescript-loader@3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@endemolshinegroup/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-3.0.2.tgz#eea4635828dde372838b0909693ebd9aafeec22d"
@@ -1052,16 +1047,6 @@
     js-yaml "^3.13.1"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
-
-"@fontsource/righteous@^4.5.6":
-  version "4.5.6"
-  resolved "https://registry.yarnpkg.com/@fontsource/righteous/-/righteous-4.5.6.tgz#af5bc0b842d273bcfbfdbe6c5258e87d4b3a1090"
-  integrity sha512-apnLtxjtpSIHMGY7XBjsb3qlmjhmnM7BnvxNrMfBeCrfmpceDsvemhesze/VLqpbN14cQ+IjfgvWfj2sEKS8XA==
-
-"@fontsource/roboto@^4.5.5":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.5.5.tgz#4ecc38e690469378e2ec2a97f9c12282c654cc93"
-  integrity sha512-Pe1p+gAO6K0aLxBXlLoJRHVx352tVc/v/7DOnvM3t+FYXb+KUga9aCD1NpnDfd0kKnWXqrZyAXguyyFWDDuphw==
 
 "@gar/promisify@^1.0.1":
   version "1.1.3"
@@ -6664,6 +6649,11 @@ gatsby-parcel-config@^0.5.0:
     "@parcel/transformer-json" "^2.3.2"
     "@parcel/transformer-raw" "^2.3.2"
     "@parcel/transformer-react-refresh-wrap" "^2.3.2"
+
+gatsby-plugin-google-fonts@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
+  integrity sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==
 
 gatsby-plugin-page-creator@^4.14.0:
   version "4.14.0"
