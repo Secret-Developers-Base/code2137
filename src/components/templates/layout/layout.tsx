@@ -11,6 +11,7 @@ const Layout = (props: { children: React.ReactChild | React.ReactChild[] }) => {
         <Nav />
         <Header />
         {props.children}
+
         <Footer />
       </div>
     </div>
