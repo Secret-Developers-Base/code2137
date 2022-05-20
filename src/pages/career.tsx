@@ -8,19 +8,11 @@ import CareersContent from "../components/templates/careers_content/careers_cont
 import "../styles/main.scss";
 
 const CareerPage = () => {
-<<<<<<< HEAD
-  return (
-    <Layout>
-      <CareersContent />
-    </Layout>
-  );
-=======
     return (
         <Layout>
             <CareersContent />
         </Layout>
     );
->>>>>>> master
 };
 
 export default CareerPage;
