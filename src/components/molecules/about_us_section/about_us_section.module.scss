@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  color: $DarkBlue;
+
+  img {
+    width: 600px;
+  }
+
+  div {
+    margin-left: 80px;
+
+    p {
+      margin: 20px 0;
+      line-height: 30px;
+      text-align: justify;
+      font-weight: 100;
+    }
+  }
+}
