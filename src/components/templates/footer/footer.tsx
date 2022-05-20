@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import * as navStyles from "../../NavBar/nav.module.scss";
+import scrollTo from "gatsby-plugin-smoothscroll";
+import * as navStyles from "../../organisms/NavBar/nav.module.scss";
 // Styles
 import * as styles from "./footer.module.scss";
 // Fonts
@@ -11,7 +12,11 @@ const Footer = (props: any) => {
     <footer className={styles.container}>
       <div>
         <div className={styles.columns_item}>
-          <Link className={navStyles.logo} to="/">
+          <Link
+            className={navStyles.logo}
+            onClick={() => scrollTo("#top")}
+            to="/"
+          >
             code2137
           </Link>
         </div>

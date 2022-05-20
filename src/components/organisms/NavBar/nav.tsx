@@ -5,9 +5,8 @@ import MobileNavigation from "./mobileNavigation";
 import Navigation from "./navigation";
 
 const Nav = () => {
-
   return (
-    <div>
+    <div id="top">
       <MobileNavigation />
       <Navigation />
     </div>

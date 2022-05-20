@@ -22,6 +22,7 @@
         "gatsby": "^4.13.1",
         "gatsby-plugin-sass": "^5.13.0",
         "gatsby-plugin-sass-resources": "^2.0.0",
+        "gatsby-plugin-smoothscroll": "^1.2.0",
         "gatsby-transformer-typescript-css-modules": "^1.0.14",
         "node-sass": "^7.0.1",
         "react": "^18.1.0",
