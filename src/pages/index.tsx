@@ -11,7 +11,7 @@ import "../styles/main.scss";
 const IndexPage = () => {
   return (
     <div id="top">
-      <Layout>
+      <Layout location={""}>
         <HomeContent />
       </Layout>
     </div>
