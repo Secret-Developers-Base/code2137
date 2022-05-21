@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px 30px 50px;
+
+  .imgLeft {
+    width: 30%;
+  }
+
+  .imgRight {
+    width: 30%;
+    margin-left: 60px;
+
+  }
+
+  .flexColumn {
+    margin-left: 100px;
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 36px;
+      font-weight: 100;
+    }
+
+    p {
+      margin: 20px 0;
+      line-height: 30px;
+      font-weight: 100;
+    }
+
+    .devSection {
+      margin: 0 20px 20px 0;
+    }
+
+    ul {
+      margin-left: 40px;
+      line-height: 2em;
+    }
+  }
+}
