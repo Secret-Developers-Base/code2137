@@ -1,20 +1,18 @@
 import * as React from "react";
 //Components
-import Footer from "../components/organisms/footer/footer";
-import Nav from "../components/organisms/NavBar/nav";
-import AboutUsSection from "../components/templates/about_us_content/about_us_content";
+
+import Layout from "../components/templates/layout/layout";
 //fonts
 
 //styles
 import "../styles/main.scss";
+import AboutUsContent from "../components/templates/about_us_content/about_us_content";
 
 const AboutPage = () => {
     return (
-        <div>
-            <Nav />
-            <AboutUsSection />
-            <Footer />
-        </div>
+        <Layout location="/about">
+            <AboutUsContent />
+        </Layout>
     );
 };
 
