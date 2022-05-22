@@ -9,7 +9,7 @@ import * as navStyles from "../../organisms/NavBar/nav.module.scss";
 const Footer = (props: any) => {
     return (
         <footer className={styles.container}>
-            <div>
+            <div className={styles.inner_container}>
                 <div className={styles.columns_item}>
                     <Link
                         className={navStyles.logo}

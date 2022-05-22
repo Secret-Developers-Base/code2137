@@ -1,86 +1,87 @@
 .container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 50px 30px 50px;
-  background-color: $White;
-
-  h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    font-weight: 100;
-    color: $DarkBlue;
-    letter-spacing: 1px;
-  }
-
-  p {
-    line-height: 30px;
-    font-weight: 100;
-    margin-bottom: 40px;
-    color: $DarkBlue;
-    letter-spacing: 1px;
-    text-align: center;
-
-    b {
-      text-transform: uppercase;
-    }
-  }
-
-  form {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 30px 50px;
 
-    input,
-    textarea {
-      width: 35vw;
-      font-size: 16px;
-      padding: 8px;
-      margin: 10px;
-      background-color: inherit;
-      color: $DarkBlue;
-      border: 0;
-      border-bottom: 3px solid $DarkBlue;
-      font-family: 'Roboto';
-
-      &::placeholder {
+    h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+        font-weight: 100;
         color: $DarkBlue;
-      }
+        letter-spacing: 1px;
     }
 
-    .text {
-      height: 150px;
+    p {
+        line-height: 30px;
+        font-weight: 100;
+        margin-bottom: 40px;
+        color: $DarkBlue;
+        letter-spacing: 1px;
+        text-align: center;
+
+        b {
+            text-transform: uppercase;
+        }
     }
 
-    .btn {
-      min-width: 160px;
-      margin: 24px auto 0 auto;
-      padding: 16px;
-      text-transform: uppercase;
-      background-color: $White;
-      border: 1px solid;
-      box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-      outline: 1px solid;
-      outline-color: rgba(27, 42, 78, 0.5);
-      outline-offset: 0px;
-      text-shadow: none;
-      transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-    }
+    form {
+        display: flex;
+        flex-direction: column;
 
-    .btn:hover {
-      border: 1px solid;
-      background-color: $DarkBlue;
-      color: $White;
-      outline-color: rgba(255, 255, 255, 0);
-      outline-offset: 15px;
+        input,
+        textarea {
+            width: 35vw;
+            font-size: 16px;
+            padding: 8px;
+            margin: 10px;
+            background-color: inherit;
+            color: $DarkBlue;
+            border: 0;
+            border-bottom: 1px solid $DarkBlue;
+            font-family: "Roboto";
+            background-color: $White;
+            outline: none;
+
+            &::placeholder {
+                color: $DarkBlue;
+            }
+        }
+
+        .text {
+            height: 150px;
+        }
+
+        .btn {
+            min-width: 160px;
+            margin: 24px auto 0 auto;
+            padding: 16px;
+            text-transform: uppercase;
+            background-color: $White;
+            border: 1px solid;
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+            outline: 1px solid;
+            outline-color: rgba(27, 42, 78, 0.5);
+            outline-offset: 0px;
+            text-shadow: none;
+            transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        .btn:hover {
+            border: 1px solid;
+            background-color: $DarkBlue;
+            color: $White;
+            outline-color: rgba(255, 255, 255, 0);
+            outline-offset: 15px;
+        }
     }
-  }
 }
 
 @media (max-width: 990px) {
-  
-  .container form input, .container form textarea {
-    width: 80vw;
-  }
+    .container form input,
+    .container form textarea {
+        width: 80vw;
+    }
 }
