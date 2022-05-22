@@ -5,8 +5,8 @@
     justify-content: center;
     padding: 40px;
     text-align: center;
-    color: #506690;
-    background-color: #1b2a4e;
+    color: $LightBlue;
+    background-color: $SuperLightBlue;
 }
 
 .inner_container {
@@ -18,6 +18,13 @@
     left: 50%;
     transform: translate(-50%);
     justify-content: left;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: righteous;
+    font-size: 30px;
+    color: $DarkBlue;
 }
 
 .columns_item {
@@ -46,8 +53,7 @@
 }
 
 .link:hover {
-    border-bottom: solid #1b2a4e;
-    color: white;
+    opacity: 0.8;
     transition: all 0.1s ease-in;
 }
 
@@ -61,5 +67,18 @@
         flex-direction: column;
         align-content: center;
         flex-wrap: wrap;
+    }
+}
+
+.columns_item {
+    font-weight: 200;
+
+    ul {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        li {
+            list-style: none;
+        }
     }
 }

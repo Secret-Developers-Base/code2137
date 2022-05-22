@@ -1,23 +1,28 @@
 .container {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 40px;
-  color: $DarkBlue;
+    margin-top: 70px;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    color: $DarkBlue;
+    margin-left: 50%;
+    transform: translate(-50%);
 
-  img {
-    width: 600px;
-  }
-
-  div {
-    margin-left: 80px;
-
-    p {
-      margin: 20px 0;
-      line-height: 30px;
-      text-align: justify;
-      font-weight: 100;
+    img {
+        width: 600px;
     }
-  }
+
+    div {
+        margin-left: 80px;
+        width: 60%;
+
+        p {
+            margin: 20px 0;
+            line-height: 30px;
+            text-align: justify !important;
+            font-weight: 100;
+        }
+    }
 }

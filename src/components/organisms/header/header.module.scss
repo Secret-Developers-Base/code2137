@@ -70,8 +70,14 @@
 // ServicesHeader
 
 .elliptic {
-    border-bottom-left-radius: 60% 15%;
-    border-bottom-right-radius: 60% 15%;
+    border-bottom-left-radius: 100% 15%;
+    border-bottom-right-radius: 100% 15%;
     height: 450px;
     background-position: center;
+
+    h1 {
+        position: relative;
+        top: 60%;
+        transform: translate(-50%);
+    }
 }
