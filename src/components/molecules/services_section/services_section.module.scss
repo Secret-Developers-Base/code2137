@@ -4,9 +4,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 50px 30px 50px;
+
     margin-left: 50%;
     transform: translate(-50%);
+
+    @include respond-to("xs") {
+        padding: 5px;
+    }
+
+    @include respond-to("md") {
+        padding: 50px 50px 30px 50px;
+    }
 
     .imgLeft {
         width: 30%;
@@ -14,22 +22,53 @@
 
     .imgRight {
         width: 30%;
-        margin-left: 60px;
+
+        @include respond-to("xs") {
+            margin-left: 10px;
+        }
+
+        @include respond-to("md") {
+            margin-left: 60px;
+        }
     }
 
     .flexColumn {
         margin-left: 100px;
 
+        @include respond-to("xs") {
+            margin-left: 20px;
+        }
+
+        @include respond-to("md") {
+            margin-left: 100px;
+        }
+
         h2 {
-            margin-bottom: 20px;
             font-size: 36px;
             font-weight: 100;
+
+            @include respond-to("xs") {
+                text-align: center;
+                margin: 20px;
+            }
+
+            @include respond-to("md") {
+                text-align: left;
+                margin: 0px 0px 20px;
+            }
         }
 
         p {
-            margin: 20px 0;
             line-height: 30px;
             font-weight: 100;
+
+            @include respond-to("xs") {
+                margin: 20px;
+            }
+
+            @include respond-to("md") {
+                margin: 20px 0;
+            }
         }
 
         .devSection {

@@ -100,12 +100,14 @@
     .menu {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         top: 70px;
         right: 0;
         width: 100%;
-        background-color: white;
-        border-top: 2px solid $DarkBlue;
+        height: 40vh;
+        background-color: #1b2a4ed5;
         animation: fadeIn 0.2s ease-in-out;
     }
 

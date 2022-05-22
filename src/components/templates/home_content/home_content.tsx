@@ -10,10 +10,14 @@ const HomeContent = () => {
     return (
         <>
             <WhoWeAreSection />
-            <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce>
+            <AnimationOnScroll animateIn="animate__fadeIn" animateOnce>
                 <WhatWeOfferSection />
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce>
+            <AnimationOnScroll
+                animateIn="animate__fadeIn"
+                animateOnce
+                delay={100}
+            >
                 <WhyUsSection />
             </AnimationOnScroll>
             <MainForm />

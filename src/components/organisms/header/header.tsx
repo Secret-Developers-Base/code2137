@@ -11,6 +11,11 @@ const Header = () => {
                 &#60;Body Leasing/&#62; | &#60;Recruitment Services/&#62; |
                 &#60;IT Outsourcing/&#62;
             </h2>
+            <div className={styles.description_mobile}>
+                <h2>Body Leasing</h2>
+                <h2>Recruitment Services</h2>
+                <h2>IT Outsourcing</h2>
+            </div>
         </header>
     );
 };

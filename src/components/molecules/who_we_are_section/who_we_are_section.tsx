@@ -11,7 +11,11 @@ const WhoWeAreSection = () => {
             <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce>
                 <img src={sideImage} alt="team during the work" />
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce>
+            <AnimationOnScroll
+                animateIn="animate__fadeIn"
+                animateOnce
+                delay={300}
+            >
                 <div>
                     <h2>Kim jesteśmy?</h2>
                     <p>

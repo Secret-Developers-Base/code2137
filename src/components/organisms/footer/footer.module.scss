@@ -17,7 +17,16 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    justify-content: left;
+
+    @include respond-to("xs") {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    @include respond-to("md") {
+        flex-direction: row;
+        justify-content: left;
+    }
 }
 
 .logo {
@@ -30,8 +39,16 @@
 .columns_item {
     display: block !important;
     width: fit-content;
-    margin: 0 80px;
+
     text-align: left;
+
+    @include respond-to("xs") {
+        margin: 20px 10px;
+    }
+
+    @include respond-to("md") {
+        margin: 0 80px;
+    }
 
     span,
     li {
@@ -59,7 +76,7 @@
 
 @media (max-width: 768px) {
     .container {
-        padding-left: 80px;
+        padding-left: 50px;
     }
 
     div {
@@ -77,6 +94,15 @@
         display: flex;
         width: 300px;
         justify-content: space-between;
+
+        @include respond-to("xs") {
+            display: none;
+        }
+
+        @include respond-to("md") {
+            display: flex;
+        }
+
         li {
             list-style: none;
         }
