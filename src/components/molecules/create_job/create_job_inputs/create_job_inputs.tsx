@@ -35,7 +35,12 @@ const initialValues: TransferListData = [
     { value: "javascript", label: "Javascript" },
     { value: "java", label: "Java" },
     { value: "html", label: "HTML" },
-    { value: "css", label: "CSS" },
+    { value: "kubernetes", label: "Kubernetes" },
+    { value: "crypto", label: "Crypto" },
+    { value: "Web3", label: "Web3" },
+    { value: "sftwr", label: "Software Development" },
+    { value: "Web Developer", label: "Web Development" },
+    { value: "FullStack Developer", label: "FullStack Development" },
   ],
   [],
 ];
@@ -180,7 +185,7 @@ export default function CreateJobInputs() {
         </div>
         <br />
         <br />
-        <div style={{ width: "50%" }}>
+        <div className={styles.RTE}>
           <h3>Tell more about your offer...</h3>
           <RichTextEditor
             controls={[

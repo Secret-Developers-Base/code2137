@@ -6,6 +6,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .RTE {
+    width: 85%!important
+  }
+
   .first__row {
     display: grid;
     grid-template-columns: repeat(1, 1fr) !important;
@@ -43,4 +47,8 @@ input[type="text"] {
 
 .mantine-k2fys1 {
   grid-template-columns: none !important;
+}
+
+.RTE {
+  width: 50%
 }
