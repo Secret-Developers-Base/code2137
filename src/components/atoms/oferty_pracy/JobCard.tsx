@@ -19,7 +19,17 @@ const JobCardComponent = (params: JobCard) => {
           <div
             style={{ color: "black", alignItems: "center", display: "flex" }}
           >
-            <p style={{ width: 'auto', justifyContent: "center", alignItems: "center", alignContent: "center", textAlign: 'center'}}>{params.monthlyPayment}</p>
+            <p
+              style={{
+                width: "auto",
+                justifyContent: "center",
+                alignItems: "center",
+                alignContent: "center",
+                textAlign: "center",
+              }}
+            >
+              {params.monthlyPayment}
+            </p>
           </div>
         </div>
         <br />
