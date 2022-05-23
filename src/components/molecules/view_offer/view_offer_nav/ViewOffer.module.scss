@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "HKGrotesk";
+    src: url("../../../../assets/fonts/HKGrotesk-Light.otf");
+}
+
+@media screen and (max-width: 768px) {
+    .main__container {
+        width: 90%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        display: block;
+        background-color: rgb(242, 244, 247);
+        align-items: center;
+        justify-self: unset;
+    }
+
+    h1,
+    h3 {
+        align-items: center;
+        font-family: "HKGrotesk", sans-serif;
+    }
+
+    .apply__btn_wrapper {
+        display: flex;
+        margin: 5% 5px;
+        justify-content: left;
+        align-items: center;
+    }
+    .date {
+        margin: 2%;
+    }
+}
+
+.main__container {
+    width: 90%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    display: block;
+    background-color: rgb(242, 244, 247);
+    align-items: center;
+    justify-self: unset;
+}
+
+h1,
+h3 {
+    align-items: center;
+    font-family: "HKGrotesk", sans-serif;
+    margin: 0.5% !important;
+}
+
+a {
+    margin: 0.5% !important;
+}
+
+.apply__btn_wrapper {
+    display: flex;
+    margin: 15px 5px;
+    justify-content: left;
+    align-items: center;
+}
+.date {
+    margin: 0.5% !important;
+}

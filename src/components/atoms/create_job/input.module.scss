@@ -1,0 +1,31 @@
+.custom__input {
+  border-radius: 6px;
+  background-color: #f1f4f8;
+  height: auto;
+  font-size: 16px;
+  border: 1px solid grey;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  transition: 0.1s all ease-in-out;
+  margin: 0 0.25rem;
+
+  &:hover {
+    cursor: auto;
+  }
+
+  &:focus {
+    box-shadow: 0 0 1em #c7c7c7;
+  }
+
+  &::-webkit-input-placeholder {
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+.mantine-rj96ud {
+  width: 90% !important;
+}

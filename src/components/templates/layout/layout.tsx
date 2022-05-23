@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../organisms/header/header";
-import * as layoutStyles from "./layout.module.scss";
+import * as styles from "./layout.module.scss";
 import Nav from "../../organisms/NavBar/nav";
 import Footer from "../../organisms/footer/footer";
 import ServicesHeader from "../../organisms/header/servicesHeader";
@@ -12,7 +12,7 @@ const Layout = (props: {
     location: string;
 }) => {
     return (
-        <div className={layoutStyles.container}>
+        <div className={styles.container}>
             <div>
                 <Nav />
                 {props.location === "/" && <Header />}

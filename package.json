@@ -16,6 +16,10 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
+        "@mantine/core": "^4.2.5",
+        "@mantine/hooks": "^4.2.5",
+        "@mantine/notifications": "^4.2.5",
+        "@mantine/rte": "^4.2.5",
         "animate.css": "^4.1.1",
         "gatsby": "^4.14.0",
         "gatsby-plugin-google-fonts": "^1.0.1",
@@ -32,7 +36,8 @@
         "react-icons": "^4.3.1",
         "react-leaflet": "^4.0.0",
         "sass": "^1.51.0",
-        "typings-for-css-modules-loader": "^1.7.0"
+        "typings-for-css-modules-loader": "^1.7.0",
+        "universal-cookie": "^4.0.4"
     },
     "devDependencies": {
         "@types/leaflet": "^1.7.10",
