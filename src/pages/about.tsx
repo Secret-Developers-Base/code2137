@@ -1,7 +1,6 @@
 import * as React from "react";
 //Components
-import Footer from "../components/templates/footer/footer";
-import Nav from "../components/organisms/NavBar/nav";
+import Layout from "../components/templates/layout/layout";
 import AboutUsSection from "../components/templates/about_us_content/about_us_content";
 //fonts
 
@@ -10,11 +9,9 @@ import "../styles/main.scss";
 
 const AboutPage = () => {
   return (
-    <div>
-      <Nav />
+    <Layout location="/about">
       <AboutUsSection />
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 
