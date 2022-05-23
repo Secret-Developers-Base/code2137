@@ -1,9 +1,21 @@
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
-    siteMetadata: {
-        title: `code2137`,
-        siteUrl: `https://www.yourdomain.tld`,
+  siteMetadata: {
+    title: `code2137`,
+    siteUrl: `https://www.yourdomain.tld`,
+  },
+  plugins: [
+    "gatsby-plugin-sass",
+    "gatsby-plugin-smoothscroll",
+    "gatsby-plugin-react-leaflet",
+    "gatsby-transformer-typescript-css-modules",
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`righteous`, `roboto`, `league-spartan`],
+        display: "swap",
+      },
     },
     plugins: [
         "gatsby-plugin-sass",
@@ -23,6 +35,7 @@ const config: GatsbyConfig = {
             },
         },
     ],
+
 };
 
 export default config;
