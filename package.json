@@ -16,6 +16,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
+        "animate.css": "^4.1.1",
         "gatsby": "^4.14.0",
         "gatsby-plugin-google-fonts": "^1.0.1",
         "gatsby-plugin-sass": "^5.14.0",
@@ -24,6 +25,7 @@
         "gatsby-transformer-typescript-css-modules": "^1.0.14",
         "node-sass": "^7.0.1",
         "react": "^18.1.0",
+        "react-animation-on-scroll": "^5.1.0",
         "react-dom": "^18.1.0",
         "react-icons": "^4.3.1",
         "sass": "^1.51.0",

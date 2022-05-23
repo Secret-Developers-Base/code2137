@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 700px;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(
@@ -16,7 +16,7 @@
 
     h1 {
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: $White;
@@ -27,21 +27,52 @@
 
     .headerDesc {
         position: absolute;
-        top: 60%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-        font-size: 15px;
-        font-family: righteous;
+        font-family: Source Code Pro;
+        font-weight: 400;
         text-transform: uppercase;
         overflow: hidden;
-        border-right: 2px solid $White;
+        margin-left: 27px;
         white-space: nowrap;
-        color: $White;
-        letter-spacing: 3px;
         animation: typing 3.5s steps(40, end),
             blink-caret 0.75s step-end infinite;
+        border-right: 2px solid $White;
+        font-size: 15px;
+        color: $White;
+        letter-spacing: 3px;
+
         margin: 0 auto;
+
+        @include respond-to("xs") {
+            display: none;
+        }
+
+        @include respond-to("md") {
+            display: block;
+        }
+    }
+}
+
+.description_mobile {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: $SuperLightBlue;
+    font-size: 12px;
+    font-weight: 200;
+    width: 350px;
+
+    @include respond-to("xs") {
+        display: block;
+    }
+
+    @include respond-to("md") {
+        display: none;
     }
 }
 
@@ -69,8 +100,22 @@
 // ServicesHeader
 
 .elliptic {
-    border-bottom-left-radius: 60% 15%;
-    border-bottom-right-radius: 60% 15%;
     height: 450px;
     background-position: center;
+
+    @include respond-to("xs") {
+        border-bottom-left-radius: 100% 5%;
+        border-bottom-right-radius: 100% 5%;
+    }
+
+    @include respond-to("md") {
+        border-bottom-left-radius: 100% 15%;
+        border-bottom-right-radius: 100% 15%;
+    }
+
+    h1 {
+        position: relative;
+        top: 60%;
+        transform: translate(-50%);
+    }
 }

@@ -9,13 +9,13 @@ import HomeContent from "../components/templates/home_content/home_content";
 import "../styles/main.scss";
 
 const IndexPage = () => {
-  return (
-    <div id="top">
-      <Layout location={""}>
-        <HomeContent />
-      </Layout>
-    </div>
-  );
+    return (
+        <div id="top">
+            <Layout location="/">
+                <HomeContent />
+            </Layout>
+        </div>
+    );
 };
 
 export default IndexPage;
