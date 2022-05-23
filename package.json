@@ -16,6 +16,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
+        "animate.css": "^4.1.1",
         "gatsby": "^4.14.0",
         "gatsby-plugin-google-fonts": "^1.0.1",
         "gatsby-plugin-react-leaflet": "^3.0.3",
@@ -26,6 +27,7 @@
         "leaflet": "^1.8.0",
         "node-sass": "^7.0.1",
         "react": "^18.1.0",
+        "react-animation-on-scroll": "^5.1.0",
         "react-dom": "^18.1.0",
         "react-icons": "^4.3.1",
         "react-leaflet": "^4.0.0",

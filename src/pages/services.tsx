@@ -9,7 +9,7 @@ import "../styles/main.scss";
 
 const ServicesPage = () => {
     return (
-        <Layout location='/services'>
+        <Layout location="/services">
             <ServicesSection />
         </Layout>
     );
