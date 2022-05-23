@@ -1,16 +1,16 @@
 import * as React from "react";
 //Components
 import Layout from "../components/templates/layout/layout";
-import CareersContent from "../components/templates/careers_content/careers_content";
 //fonts
 
 //styles
 import "../styles/main.scss";
+import OfertyPracyContent from "../components/templates/oferty_pracy_content/oferty_pracy_content";
 
 const CareerPage = () => {
     return (
         <Layout location="/career">
-            <CareersContent />
+            <OfertyPracyContent />
         </Layout>
     );
 };
