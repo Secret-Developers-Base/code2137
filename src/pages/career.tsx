@@ -9,7 +9,7 @@ import "../styles/main.scss";
 
 const CareerPage = () => {
     return (
-        <Layout>
+        <Layout location="/career">
             <CareersContent />
         </Layout>
     );

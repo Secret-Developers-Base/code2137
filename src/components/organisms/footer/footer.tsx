@@ -3,15 +3,14 @@ import { Link } from "gatsby";
 import scrollTo from "gatsby-plugin-smoothscroll";
 // Styles
 import * as styles from "./footer.module.scss";
-import * as navStyles from "../../organisms/NavBar/nav.module.scss";
 
 const Footer = (props: any) => {
     return (
         <footer className={styles.container}>
-            <div>
+            <div className={styles.inner_container}>
                 <div className={styles.columns_item}>
                     <Link
-                        className={navStyles.logo}
+                        className={styles.logo}
                         onClick={() => scrollTo("#top")}
                         to="/"
                     >
@@ -30,44 +29,32 @@ const Footer = (props: any) => {
                 <div className={styles.columns_item}>
                     <ul className="menu">
                         <li
-                            className={navStyles.list}
+                            className={styles.list}
                             onClick={() =>
                                 props.isMobile && props.closeMobileMenu()
                             }
                         >
-                            <Link
-                                className={styles.link}
-                                activeClassName={navStyles.activeLink}
-                                to="/career"
-                            >
+                            <Link className={styles.link} to="/career">
                                 Kariera
                             </Link>
                         </li>
                         <li
-                            className={navStyles.list}
+                            className={styles.list}
                             onClick={() =>
                                 props.isMobile && props.closeMobileMenu()
                             }
                         >
-                            <Link
-                                className={styles.link}
-                                activeClassName={navStyles.activeLink}
-                                to="/services"
-                            >
+                            <Link className={styles.link} to="/services">
                                 Usługi
                             </Link>
                         </li>
                         <li
-                            className={navStyles.list}
+                            className={styles.list}
                             onClick={() =>
                                 props.isMobile && props.closeMobileMenu()
                             }
                         >
-                            <Link
-                                className={styles.link}
-                                activeClassName={navStyles.activeLink}
-                                to="/about"
-                            >
+                            <Link className={styles.link} to="/about">
                                 O nas
                             </Link>
                         </li>
