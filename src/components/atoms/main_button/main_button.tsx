@@ -1,5 +1,5 @@
 import React from "react";
-import * as styles from "main_buttton.modules.scss";
+import * as styles from "../main_button/main_button.modules.scss";
 
 const MainButton = ({ buttonContent, onClick }: any) => {
     return (
