@@ -1,0 +1,49 @@
+.container {
+    margin-top: 70px;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: $DarkBlue;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+    @include respond-to("xs") {
+        padding: 10px;
+    }
+
+    @include respond-to("md") {
+        padding: 40px;
+    }
+
+    img {
+        @include respond-to("xs") {
+            width: 350px;
+        }
+
+        @include respond-to("md") {
+            width: 600px;
+        }
+    }
+
+    div {
+        width: 60%;
+
+        @include respond-to("xs") {
+            margin-left: 15px;
+        }
+
+        @include respond-to("md") {
+            margin-left: 80px;
+        }
+
+        p {
+            margin: 20px 0;
+            line-height: 30px;
+            text-align: justify !important;
+            font-weight: 100;
+        }
+    }
+}

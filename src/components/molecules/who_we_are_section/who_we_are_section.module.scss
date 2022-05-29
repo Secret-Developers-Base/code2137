@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    background-color: $DarkBlue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @include respond-to("xs") {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    @include respond-to("md") {
+        padding: 40px;
+        flex-direction: row;
+    }
+
+    img {
+        @include respond-to("xs") {
+            width: 300px;
+        }
+
+        @include respond-to("md") {
+            width: 600px;
+        }
+    }
+
+    div {
+        color: white;
+
+        @include respond-to("xs") {
+            margin: 15px;
+        }
+
+        @include respond-to("md") {
+            margin-left: 80px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 36px;
+            font-weight: 100;
+
+            @include respond-to("xs") {
+                text-align: center;
+            }
+
+            @include respond-to("md") {
+                text-align: left;
+            }
+        }
+
+        p {
+            margin: 20px 0;
+            line-height: 30px;
+            text-align: justify;
+            font-weight: 100;
+        }
+    }
+}

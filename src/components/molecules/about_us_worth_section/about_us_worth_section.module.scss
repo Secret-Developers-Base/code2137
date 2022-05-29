@@ -1,0 +1,30 @@
+.container {
+    align-items: center;
+    margin-top: 20px;
+    padding: 40px;
+    text-align: left;
+    color: $DarkBlue;
+    width: 80%;
+    max-width: 1440px;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    p {
+        margin: 20px 0;
+        line-height: 30px;
+        text-align: left;
+        font-weight: 100;
+    }
+
+    ul {
+        line-height: 25px;
+        padding-left: 40px;
+        text-align: left;
+    }
+}

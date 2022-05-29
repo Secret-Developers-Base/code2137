@@ -1,0 +1,18 @@
+import * as React from "react";
+//Components
+import Layout from "../components/templates/layout/layout";
+import CareersContent from "../components/templates/careers_content/careers_content";
+//fonts
+
+//styles
+import "../styles/main.scss";
+
+const CareerPage = () => {
+    return (
+        <Layout location="/career">
+            <CareersContent />
+        </Layout>
+    );
+};
+
+export default CareerPage;
