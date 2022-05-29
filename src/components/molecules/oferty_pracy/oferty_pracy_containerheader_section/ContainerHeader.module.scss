@@ -1,7 +1,6 @@
 .container__header {
-    padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
-    background-color: #1b2a4e !important;
+    height: 200px;
+    background-color: $DarkBlue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,4 +21,10 @@
     width: 100%;
     padding-right: 20px;
     padding-left: 20px;
+
+    h2 {
+        color: white;
+        font-size: 44px;
+        margin-left: 20%;
+    }
 }
