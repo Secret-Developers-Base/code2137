@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
         {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
-                fonts: [`righteous`, `roboto`, `league-spartan`],
+                fonts: [`righteous`, `roboto`, "Source Code Pro"],
                 display: "swap",
             },
         },

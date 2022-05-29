@@ -2,8 +2,10 @@ import React from "react";
 import Header from "../../organisms/header/header";
 import * as styles from "./layout.module.scss";
 import Nav from "../../organisms/NavBar/nav";
-import Footer from "../footer/footer";
-
+import Footer from "../../organisms/footer/footer";
+import ServicesHeader from "../../organisms/header/servicesHeader";
+import "animate.css/animate.min.css";
+import AboutUsHeader from "../../molecules/about_us_header/about_us_header";
 
 const Layout = (props: {
     children: React.ReactChild | React.ReactChild[];
@@ -21,7 +23,6 @@ const Layout = (props: {
             </div>
         </div>
     );
-
 };
 
 export default Layout;

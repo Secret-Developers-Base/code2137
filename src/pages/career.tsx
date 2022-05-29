@@ -9,7 +9,6 @@ import OfertyPracyContent from "../components/templates/oferty_pracy_content/ofe
 
 const CareerPage = () => {
     return (
-
         <Layout location="/career">
             <OfertyPracyContent />
         </Layout>
