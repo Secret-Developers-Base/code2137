@@ -1,13 +1,14 @@
 .container {
-    width: 100%;
-    background-color: $DarkBlue;
-    height: 200px;
-    display: flex;
-    align-items: center;
+  margin-top: 70px;
+  width: 100%;
+  background-color: $DarkBlue;
+  height: 200px;
+  display: flex;
+  align-items: center;
 
-    h2 {
-        color: white;
-        font-size: 44px;
-        margin-left: 20%;
-    }
+  h2 {
+    color: white;
+    font-size: 44px;
+    margin-left: 20%;
+  }
 }
