@@ -1,6 +1,6 @@
 import React from "react";
 import NavLinks from "./navLinks";
-import * as styles from "./nav.module.scss";
+import * as navStyles from "./nav.module.scss";
 import { Link } from "gatsby";
 import { CgMenu, CgClose } from "react-icons/cg";
 import { useState } from "react";
@@ -10,17 +10,17 @@ const MobileNavigation = () => {
 
     const hamburgerIcon = (
         <CgMenu
-            className={styles.hamburger}
+            className={navStyles.hamburger}
             size="40px"
-            color="#ffffff"
+            color="#1B2A4E"
             onClick={() => setOpen(!open)}
         />
     );
     const closeIcon = (
         <CgClose
-            className={styles.hamburger}
+            className={navStyles.hamburger}
             size="40px"
-            color="#ffffff"
+            color="#1B2A4E"
             onClick={() => setOpen(!open)}
         />
     );
@@ -28,11 +28,11 @@ const MobileNavigation = () => {
     const closeMobileMenu = () => setOpen(false);
 
     return (
-        <nav className={styles.mobile}>
-            <div className={styles.logoContainer}>
+        <nav className={navStyles.mobile}>
+            <div className={navStyles.logoContainer}>
                 <Link
-                    className={styles.logo}
-                    activeClassName={styles.activeLink}
+                    className={navStyles.logo}
+                    activeClassName={navStyles.activeLink}
                     to="/"
                 >
                     code2137

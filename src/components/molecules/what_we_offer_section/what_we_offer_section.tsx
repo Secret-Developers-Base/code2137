@@ -6,13 +6,10 @@ const WhatWeOfferSection = () => {
     return (
         <div className={styles.container}>
             <h2>Co oferujemy?</h2>
-            <h3>
-                Programista potrzebny „na już”, a najlepiej cały zespół „na
-                wczoraj”?
-            </h3>
             <p>
-                Spokojnie, to zadanie właśnie dla nas. Nasi eksperci pomogą Ci w
-                uzupełnieniu braków kadrowych. Wykonamy dedykowane
+                Programista potrzebny „na już”, a najlepiej cały zespół „na
+                wczoraj”? Spokojnie, to zadanie właśnie dla nas. Nasi eksperci
+                pomogą Ci w uzupełnieniu braków kadrowych. Wykonamy dedykowane
                 oprogramowanie, pomożemy w wyborze technologii, doradzimy lub
                 kompleksowo poprowadzimy projekt, przy którym do końca będziesz
                 mógł liczyć na nasze wsparcie. Oferujemy szybki dostęp do
